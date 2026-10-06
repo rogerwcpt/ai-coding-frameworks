@@ -1,3 +1,5 @@
 # The meetup brief stays local. The deck and sources.md are the public artifacts.
 plan.md
+plan-samples.md
 notes/
+.DS_Store
