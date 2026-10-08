@@ -4,7 +4,7 @@ One fictitious product, built four ways, from two starting points. The app is Ne
 
 The three packages can be compared with each other without this folder. They cannot be compared with the recommendation in the talk unless the files are built the same way, against the same brief. That is what `samples/pi/` is for.
 
-The apps are not generated yet. This file is the brief, the install commands, and the checklist the outputs will be compared against. Install lines were taken from each project's README on 6 October 2026.
+The baseline, the Spec Kit apps, and the BMAD apps were built on 6 October 2026. Squad and Pi are initialized and were not run through to an app. The record is [comparison.md](comparison.md). Install lines were taken from each project's README on 6 October 2026.
 
 ## Runtime
 
@@ -62,7 +62,7 @@ samples/
   pi/brownfield/
 ```
 
-`baseline/` and the eight project folders are created in a later pass. Each approach owns one folder. Greenfield and brownfield are the two starting points, not eight different products.
+Each approach owns one folder. Greenfield and brownfield are the two starting points, not eight different products. The baseline, Spec Kit, and BMAD folders contain apps. Squad and Pi do not.
 
 ## Install
 
@@ -270,4 +270,4 @@ Create `samples/baseline` with:
 npx create-next-app@latest baseline --yes
 ```
 
-Record the Next.js version that command resolved. Copy the baseline into the four brownfield folders. Leave the Spec Kit, BMAD, and Squad greenfield folders empty except for this brief. In `samples/pi/greenfield/`, write the three files and the one-line `AGENTS.md` from the Pi section, and do not create the Next.js app yourself. Run each approach once. Fill in `samples/comparison.md`.
+Resolved 6 October 2026: Next.js 16.3.8, React 19.2.8. That pass has been run. The record is [comparison.md](comparison.md). Squad and Pi stopped before an app, for the reasons written there.

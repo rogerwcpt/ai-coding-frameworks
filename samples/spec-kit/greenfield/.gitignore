@@ -1,0 +1,23 @@
+# dependencies
+node_modules/
+
+# build
+dist/
+build/
+out/
+.next/
+
+# logs and env
+*.log
+.env*
+
+# misc
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+coverage/
+
+# typescript / next
+*.tsbuildinfo
+next-env.d.ts
